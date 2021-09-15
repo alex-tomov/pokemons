@@ -9,7 +9,7 @@ bundle install
 ```
 
 ```shell
-rake db:craete
+rake db:create
 rake db:migrate
 ```
 
@@ -30,3 +30,8 @@ curl <hostname>/pokemons
 ```shell
 curl <hostname>/pokemons/:id
 ```
+
+## Heroku APP
+
+https://alex-pokemon-api.herokuapp.com/pokemons
+https://alex-pokemon-api.herokuapp.com/pokemons/1
